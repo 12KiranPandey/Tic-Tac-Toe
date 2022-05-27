@@ -1,0 +1,111 @@
+/* .container{
+    height: 450px;
+    width:430px;
+    border: 1px solid gray;
+    margin: auto;
+} */
+.tic{
+    height: 150px;
+    width: 33%;
+    font-size: 100px;
+    border: 5px solid gray;
+    margin-top:10 px;
+    border-top: none;
+    border-left: none;
+     background-color: aquamarine; 
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    color: white;
+    align-items:center ;
+    justify-content: center;
+
+}
+.tac{
+    width: 500px;
+    margin: auto;
+
+}
+.table1{
+    height: 150px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color:aqua;
+    text-align: center;
+   background-color:rgba(128, 128, 128,0.6);
+   margin-top: 20px;
+
+
+}
+.task{
+    border-bottom: none;
+}
+.toe{
+    border-right: none;
+}
+.reset{
+    height: 40px;
+    width: 100px;
+    background-color: aqua;
+    color: grey;
+    border: 2px solid grey;
+    margin-left:100px ;
+    border-radius: 20px;
+   
+
+}
+.reload{    
+    height: 40px;
+    width: 100px;
+    background-color: aqua;
+    color: grey;
+    border: 2px solid grey;
+    margin-left:100px ;
+    border-radius: 20px;
+   
+}
+.userinfo{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 250px;
+    width: 300px;
+    padding-top: 30px;
+    background-color: grey;
+    
+}
+.Start{
+    background-color: aquamarine;
+    box-shadow: inset;
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    color:gray;
+
+}
+.game{
+    display: none;
+}
+#player1{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: gray;
+}
+#player2{
+    margin-left: 20px;
+    color: gray;
+
+}
+.reset1{
+    width: 400px;
+    margin-left: 360px;
+    margin-top: 20px;
+} 
+.scorediv{
+    float:right;
+
+}

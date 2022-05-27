@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <style>
+        .game
+        {
+            display: none;
+            margin: auto;
+        }
+        .container
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width:300px;
+            height:300px;
+            border:2px solid black;
+            margin: auto;
+            background-color: aquamarine
+           
+        }
+        .container div{
+            display: flex;
+            width:90px;
+            height:90px;
+            justify-content: center;
+            align-items: center;
+            border:2px solid black;
+            font-size: 30px;
+        }
+        .restart{
+            background-color: aqua;
+            margin-left: 600px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="info">
+        <h3>Welcome To Tic Tac Toe</h3>
+       User1: <input type="text" id="user1" ><br>
+        User2 :<input type="text" id="user2" ><br>
+        <input type="button" value="start" onclick="start()">
+    </div>
+    <div class="game">
+    <div class="container" >
+        <div  id='0' onclick="setVal('0')"></div>
+        <div  id='1' onclick="setVal('1')"></div>
+        <div  id='2' onclick="setVal('2')"></div>
+        <div  id='3' onclick="setVal('3')"></div>
+        <div  id='4' onclick="setVal('4')"></div>
+        <div  id='5' onclick="setVal('5')"></div>
+        <div  id='6' onclick="setVal('6')"></div>
+        <div  id='7' onclick="setVal('7')"></div>
+        <div  id='8' onclick="setVal('8')"></div>
+    
+    </div>
+    <input type="button" class="restart" value="restart" onclick="restart()">
+</div>
+    <script src="E:\tic-tac-toe\js\new.js"></script>
+</body>
+</html>
