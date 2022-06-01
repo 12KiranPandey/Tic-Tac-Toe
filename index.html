@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css\tic-tac.css">
 </head>
 <body>
-     <div class="container-fluid" style="height:50px; width:500px; margin-top: 20px; background-color: aquamarine;"> <h2 style="text-align:center; color:grey;background-color: aquamarine;">Tic-Tac-Toe</h2></div>
+     <div class="container-fluid" style="text-align:center;margin-top:  20px; width: 200px;"> <h2 style="color:grey;font-size: 30px;font-weight: bold; font-style: italic; background-color: white;">Tic-Tac-Toe</h2></div>
    
       <div class="container-fluid userinfo" id="userinfo">
         <input type="text"  class="name" id="player1" placeholder="player1"><br><br>
@@ -19,7 +19,6 @@
         <input type="button" value="Start Game" id="start" class="Start" onclick="StartGame()">
         </div>
        <div class="container-fluid game" id="game">   
-        <h2 style="margin-top: 20px; color:black; text-align: center;"></h2>
         <div class="row tac">
             <div class="col-md-4  tic" id="0" onclick="SetVal('0')" ></div>
             <div class="col-md-4  tic"id="1" onclick="SetVal('1')"  ></div>
@@ -36,8 +35,8 @@
             <div class="col-md-4 tic task toe"id="8" onclick="SetVal('8')" ></div>
           </div>
           <div class="row reset1">
-             <div class="col-md-6"><input type="button" value="reset"  class="reset" id="reset" onclick="reset()"></div> 
-            <div class="col-md-6"><input type="button" value="relaodpage" id="reload" class="reload" onclick="reload()"></div>
+             <div class="col-md-6"><input type="button" value="Reset"  class="reset" id="reset" onclick="reset()"></div> 
+            <div class="col-md-6"><input type="button" value="Relaodpage" id="reload" class="reload" onclick="reload()"></div>
           </div>
         <!-- <table class="table">
           <tr>
@@ -50,7 +49,7 @@
           </tr>
         </table>   -->    
         <div class="container-fluid scorediv"> 
-          <table class="table table-borderless table1">
+          <table class="table  table1">
             <tbody>
               <tr>
                 <td id="name1"></td>
@@ -63,8 +62,8 @@
             </tbody>
           </table>
         </div>
-        </div>
-        </div>
+       
+        
        <script src="js/tic-tac.js"></script>
 </body>
 </html>

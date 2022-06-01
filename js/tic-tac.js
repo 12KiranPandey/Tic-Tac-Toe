@@ -85,11 +85,12 @@ function GetWinner()
             if(state==false)
             {
                 alert(player1 +" Winner ");
-                color="rgba(128,128,128,0.5)";
+                 color="rgba(128,128,128,0.5)";
+
             }
             else{
                 alert(player2+" Winner");
-                color="#5fdec4";
+                color="#D3D3D3";
             }
             heighLight(m,n,o,color);
             resetArray();
@@ -135,7 +136,7 @@ function reset(){
      a=[1,0,1,0,1,0,0,1,0];
     for(let i=0;i<=8;i++){
         document.getElementById(i).innerHTML="";
-        document.getElementById(i).style.backgroundColor="aquamarine";
+        document.getElementById(i).style.backgroundColor="white";
     }
 
 }
